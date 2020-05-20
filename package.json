@@ -1,0 +1,9 @@
+{
+  "name": "vercel-ntlm",
+  "version": "1.0.0",
+  "description": "A \"middleware\" type thing to do NTLM authentication in Vercel",
+  "main": "index.js",
+  "repository": "git@github.com:joshgrib/vercel-ntlm.git",
+  "author": "Josh Gribbon",
+  "license": "MIT"
+}
