@@ -4,7 +4,7 @@ An NTLM "middleware" for use in a Vercel serverless function to handle Active Di
 
 This is just a wrapper around [`express-ntlm`](https://github.com/einfallstoll/express-ntlm) that adds a few properties on the `request` and `response` objects that are expected by `express-ntlm` but not supplied by Vercel for their serverless functions.
 
-> TODO: Right now you have to generate and send a connection ID in the query string because I haven't been able to find a connection ID on Vercel's request object
+> TODO: Right now you have to generate and send a connection ID in the query string because I haven't been able to find a connection ID on Vercel's request object. I'm posted [a stack overflow question seeking help with this](https://stackoverflow.com/questions/61923172/ntlm-authentication-in-a-vercel-serverless-function)
 
 ## Usage
 
